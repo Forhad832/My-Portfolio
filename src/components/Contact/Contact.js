@@ -16,7 +16,9 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+      e.target.reset();
     };
+   
   return (
     <section className='bg-[#0a192f]' id='contact'>
       <div className="container px-4 mx-auto ">
@@ -60,7 +62,7 @@ const Contact = () => {
                         <input className='outline-none my-4 w-full py-2 rounded-lg border-2 border-[#47b5ff] px-4' type="email" name="user_email" />
                         <label className='text-xl text-[#47b5ff] mb-2'>Message</label>
                         <textarea className='outline-none my-4 w-full py-2 h-60 rounded-lg border-2 border-[#47b5ff] px-4' name="message" />
-                        <input className='cursor-pointer outline-none btn-primary text-lg font-bold w-full py-2 rounded-lg border-2 border-[#47b5ff] px-4' type="submit" value="Send" />
+                        <input  className='cursor-pointer outline-none btn-primary text-lg font-bold w-full py-2 rounded-lg border-2 border-[#47b5ff] px-4' type="submit" value="Send" />
                                 </form>
                 </div>
         </div>
