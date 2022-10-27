@@ -15,14 +15,11 @@ const Home = () => {
                <div className="flex">
                <button className='btn text-[#0A192F] font-bold uppercase flex items-center gap-4 tracking-wider mt-5 w-fit btn-primary mr-5'  >Hire Me <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button>
                
-               <a href={Resume} download  ><button className='btn text-[#fff] font-bold uppercase tracking-wider mt-5 flex gap-4'>Download CV  <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button></a>
-               
-               
-                
+               <a href={Resume} download  ><button className='btn text-[#fff] font-bold uppercase tracking-wider mt-5 flex gap-4'>Download CV  <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button></a>          
                </div>
             </div>
             <div className='flex justify-center mb-5 md:justify-end md:md-0'>
-                <img src={Me} alt="Forhad Image" className='content-div w-96 -mt-8 rounded-t-full bg-[#47B5FF]' />
+                <img src={Me} alt="Forhad" className='content-div w-96 -mt-8 rounded-t-full bg-[#47B5FF]' />
             </div>
         </div>
       </div>
