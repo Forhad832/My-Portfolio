@@ -6,7 +6,7 @@ const Skills = () => {
   const [skills,setSkills] = useState(skillsdata)
 
 
-  const [brand,setBrand] = useState(Allbrand);
+  
   
     const filtered = (brand)=>{
         if(brand === 'All'){
@@ -26,9 +26,9 @@ const Skills = () => {
           </div>
           <div className='max-w-[1000px] mx-auto mt-32'>
            
-          {brand.map((brand,index)=>{
+          {Allbrand.map((brand,index)=>{
         return (
-            <button  to='' className={`'btn mr-4 ml-5' ${brand === brand && 'btn btn-primary'}`} key={index} onClick={()=> filtered(brand)}>{brand}</button>
+            <button  className={`'btn mr-4 ml-5' ${brand === brand && 'btn btn-primary'}`} key={index} onClick={()=> filtered(brand)}>{brand}</button>
         )
       })}
          

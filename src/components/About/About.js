@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaAward, FaLocationArrow } from 'react-icons/fa'
+import Resume from '../../assets/resume .pdf'
 const About = () => {
   return (
     <section id='about' className='bg-[#0a192f]'>
@@ -13,7 +14,7 @@ const About = () => {
                 <div className="flex justify-center md:block w-5/5 md:w-2/5">
                   <div className='px-4 '>
                         <p className='text-xl text-gray-400 line-height'>Hello! I'm Forhad Hossen, I am a frontend developer and still I am learing.I have completed Diploma in Power engineering from Rangpur Polytechnic Institute at Rangpur,Bangladesh in 2022.I am available for any kind of job opportunity that suits my interests.</p>
-                        <button className='flex gap-5 my-5 text-lg tracking-wider text-white btn' ><a href="">Get Resume </a> </button>
+                        <button className='flex gap-5 my-5 text-lg tracking-wider text-white btn' ><a href={Resume} download>Get Resume </a> </button>
                   </div>
                 </div>
                 <div className="w-5/5 md:w-3/5 ">
@@ -36,7 +37,7 @@ const About = () => {
                     </div>
                     <p className='mt-10 text-xl text-gray-400'>Hello! I am Forhad Hossen and I’m a frontend developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive Frontend web applications And React applications.I'm also completed Diploma in Power Engineering</p>
 
-                    <button className='my-5 text-xl btn btn-primary' ><a className='flex gap-5' target='_blank' href="https://m.me/Forhad9034">Let's Talk <FaLocationArrow  /> </a> </button>
+                    <button className='my-5 text-xl btn btn-primary' ><a className='flex gap-5' rel="noopener noreferrer" target='_blank' href="https://m.me/Forhad9034">Let's Talk <FaLocationArrow  /> </a> </button>
                 </div>
             </div>
       </div>

@@ -21,7 +21,7 @@ const Work = () => {
                        <div className='px-4'>
                     
                         <div className='flex gap-4 my-4'>
-                            <a target='_blank' href={url} className='btn btn-primary text-[#0a192f]'>{btn1}</a>
+                            <a target='_blank' rel="noopener noreferrer" href={url} className='btn btn-primary text-[#0a192f]'>{btn1}</a>
                             <a href={codeUrl} className='btn'>{btn2}</a>
                             
                         </div>
