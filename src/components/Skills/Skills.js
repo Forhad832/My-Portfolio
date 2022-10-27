@@ -28,7 +28,7 @@ const Skills = () => {
            
           {Allbrand.map((brand,index)=>{
         return (
-            <button  className={`'btn mr-4 ml-5' ${brand === brand && 'btn btn-primary'}`} key={index} onClick={()=> filtered(brand)}>{brand}</button>
+            <button  className='ml-5 mr-4 btn btn-primary' key={index} onClick={()=> filtered(brand)}>{brand}</button>
         )
       })}
          
