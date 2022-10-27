@@ -18,7 +18,7 @@ const Skills = () => {
         setSkills(newItems)
     }
   return (
-    <section id='skill' className='bg-[#0a192f] px-4 md:px-0'>
+    <section id='skill' className='bg-[#0a192f] px-4 '>
       <div className="container mx-auto">
       <div className='text-center'>
       <p className='text-[#47b5ff] text-lg font-semibold'>I have This Skills</p>

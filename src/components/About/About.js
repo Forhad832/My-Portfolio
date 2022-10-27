@@ -4,7 +4,7 @@ import Resume from '../../assets/resume .pdf'
 const About = () => {
   return (
     <section id='about' className='bg-[#0a192f]'>
-      <div className="container px-4 mx-auto md:px-0">
+      <div className="container px-4 mx-auto ">
             <div className='text-center'>
               <p className='text-[#47b5ff] text-lg font-semibold'>Get to know Me</p>
                 <h2 className='inline text-gray-100 text-4xl font-bold border-b-4 border-[#47B5FF]'>About Me</h2>

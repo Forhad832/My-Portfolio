@@ -5,7 +5,7 @@ import Resume from '../../assets/resume .pdf';
 const Home = () => {
   return (
     <section id='home'  name='home' className='bg-[#0A192F] w-full '>
-      <div className="container mx-auto">
+      <div className="container px-4 mx-auto">
         <div className="grid gap-10 px-4 mt-32 md:grid-cols-2 md:px-0">
             <div className='mb-5 md:mb-0'>
                 <p className='text-[#47B5FF] font-semibold text-xl'>Hello! I am</p>

@@ -19,7 +19,7 @@ const Contact = () => {
     };
   return (
     <section className='bg-[#0a192f]' id='contact'>
-      <div className="container px-4 mx-auto md:px-0">
+      <div className="container px-4 mx-auto ">
       <div className='text-center'>
               <p className='text-[#47b5ff] text-lg font-semibold'>contact us</p>
                 <h2 className='inline text-gray-100 text-4xl font-bold border-b-4 border-[#47B5FF]'>Contact With Me</h2>

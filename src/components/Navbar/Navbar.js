@@ -5,7 +5,7 @@ const Navbar = () => {
     const [nav,setNav] = useState(false);
     const handleClick = ()=>{setNav(!nav)}
   return (
-    <header className='bg-[#0A192F]  w-full fixed z-10'>
+    <header className='bg-[#0A192F]  w-full px-4 fixed z-10'>
       <nav className='container flex items-center justify-between h-20 px-4 py-4 mx-auto text-white shadow-2xl md:px-0'>
         <div className="logo">
             <img src={Logo} style={{width:"60px"}} alt='Logo' className='object-cover 0'/>

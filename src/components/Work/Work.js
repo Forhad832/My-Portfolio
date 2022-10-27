@@ -3,7 +3,7 @@ import { workdata } from './wrokdata';
 const Work = () => {
   return (
     <section className='bg-[#0a192f] ' id='work'>
-      <div className="container px-4 mx-auto md:px-0">
+      <div className="container px-4 mx-auto ">
       <div className='text-center'>
               <p className='text-[#47b5ff] text-lg font-semibold'>I have Created many websites</p>
                 <h2 className='inline text-gray-100 text-4xl font-bold border-b-4 border-[#47B5FF]'>Portoflio Work</h2>

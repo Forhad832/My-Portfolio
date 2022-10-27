@@ -6,7 +6,7 @@ import Logo from '../../assets/logo.png';
 const Footer = () => {
   return (
     <footer className='bg-[#2c2c6c] py-5'>
-      <div className="container px-4 mx-auto md:px-0 ">
+      <div className="container px-4 mx-auto">
         <a href="#home"><div className="flex items-center gap-3"><img src={Logo} alt="logo" width={50}/><span className='prose text-gray-100 lg:prose-xl'>Forhad</span></div></a>
       
         <div className="grid grid-cols-1 gap-12 my-16 md:grid-cols-3">
