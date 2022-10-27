@@ -13,8 +13,8 @@ const Home = () => {
                 <h3 className='text-[#47B5FF] mb-4 text-3xl font-bold  md:text-4xl'> Frontend Developer.</h3>
                 <p className='mb-5 text-xl text-gray-400'>I’m a frontend developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive React applications.</p>
                <div className="flex">
-               <button className='btn text-[#0A192F] font-bold uppercase flex items-center gap-4 tracking-wider mt-5 w-fit btn-primary mr-5'  >Hire Me <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button>
                
+               <a href="https://m.me/Forhad9034"><button className='btn text-[#0A192F] font-bold uppercase flex items-center gap-4 tracking-wider mt-5 w-fit btn-primary mr-5'  >Hire Me <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button></a>
                <a href={Resume} download  ><button className='btn text-[#fff] font-bold uppercase tracking-wider mt-5 flex gap-4'>Download CV  <BsArrowRight size={20} className='hover:rotate-[90deg] duration-500'/></button></a>          
                </div>
             </div>
