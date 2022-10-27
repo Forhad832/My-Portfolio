@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu',
+    
+}
+.line-height{
+  line-height: 2;
+}
+html{
+  scroll-behavior: smooth;
+}
+section{
+  padding: 5rem 0;
+}
+.btn{
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+
+  border: 2px solid #47B5FF;
+}
+.btn-primary{
+  background: #47B5FF;
+  border: 2px solid #47B5FF;
+}
+.content-div{
+  background: linear-gradient(#37b5ff,transparent )!important;
+}
+
+.nav{
+  background-color: #0a192f !important;
+}
