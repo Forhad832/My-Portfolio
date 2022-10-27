@@ -1,8 +1,8 @@
 import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
-import { IoIosArrowDropup } from 'react-icons/io';
 import Logo from '../../assets/logo.png';
+import ScrollButton from '../SCroll/ScrollButton';
 const Footer = () => {
   return (
     <footer className='bg-[#2c2c6c] py-5'>
@@ -42,7 +42,8 @@ const Footer = () => {
            <div className="flex justify-between ">
            <p className='text-slate-300'>© copyright 2022 Forhad Hossen. All Rights Reserved.</p>
            <div>
-            <button className='bg-[#47b5ff]' href="#"><IoIosArrowDropup  size={30} className='bg-[#47b5ff] rounded'/></button>
+            <ScrollButton />
+           
            </div>
            </div>
       </div>
