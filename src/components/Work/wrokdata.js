@@ -9,6 +9,7 @@ import Web8 from '../../assets/8.png'
 import Web9 from '../../assets/9.png'
 import Web10 from '../../assets/web10.png'
 import Web11 from '../../assets/web11.png'
+import nafi from '../../assets/nafi.png'
 export const workdata = [
     {
         id:1,
@@ -32,6 +33,15 @@ export const workdata = [
     },
     {
         id:3,
+        image:nafi,
+        btn1:'Demo',
+        btn2:'Code',
+        text:'React Frontend Level Work',
+        url:'https://nowsin-akter.netlify.app/?fbclid=IwAR3SkUCcUC1Mu2cUR4EAVqZISo4xq5oQqQXLBBRQ1-bozhkz8aq3vWKgcmw#contact',
+        codeUrl:'https://github.com/Forhad832/Nowsin_Portfolio'
+    },
+    {
+        id:4,
         image:Web2,
         btn1:'Demo',
         btn2:'Code',
@@ -39,8 +49,9 @@ export const workdata = [
         url:'https://phlox-agency-by-forhad.netlify.app/',
         codeUrl:'https://github.com/Forhad832/Dark-Phlox-Agency'
     },
+   
     {
-        id:4,
+        id:5,
         image:Web3,
         btn1:'Demo',
         btn2:'Code',
@@ -49,7 +60,7 @@ export const workdata = [
         url:'https://forhad832.github.io/bootcamp/'
     },
     {
-        id:5,
+        id:6,
         image:Web4,
         btn1:'Demo',
         btn2:'Code',
@@ -58,7 +69,7 @@ export const workdata = [
         codeUrl:'https://github.com/Forhad832/NetBook'
     },
     {
-        id:6,
+        id:7,
         image:Web5,
         btn1:'Demo',
         btn2:'Code',
@@ -67,7 +78,7 @@ export const workdata = [
         codeUrl:'https://github.com/Forhad832/Landwind'
     },
     {
-        id:7,
+        id:8,
         image:Web6,
         btn1:'Demo',
         btn2:'Code',
@@ -76,7 +87,7 @@ export const workdata = [
         codeUrl:'https://github.com/Forhad832/Landing-Page'
     },
     {
-        id:8,
+        id:9,
         image:Web7,
         btn1:'Demo',
         btn2:'Code',
@@ -85,7 +96,7 @@ export const workdata = [
         codeUrl:'https://github.com/Forhad832/Blogy'
     },
     {
-        id:9,
+        id:10,
         image:Web8,
         btn1:'Demo',
         btn2:'Code',
@@ -94,14 +105,14 @@ export const workdata = [
         codeUrl:'https://github.com/Forhad832/Besnik'
     },
     {
-        id:10,
+        id:11,
         image:Web9,
         btn1:'Demo',
         btn2:'Code',
         text:'Frontend Level Work'
     },
     {
-        id:11,
+        id:12,
         image:Web10,
         btn1:'Demo',
         btn2:'Code',

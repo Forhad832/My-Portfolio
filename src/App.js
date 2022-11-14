@@ -10,7 +10,7 @@ import Work from "./components/Work/Work";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
     <Navbar />
     <Home />
     <About />
