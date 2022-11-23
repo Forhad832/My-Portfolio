@@ -34,7 +34,7 @@ const About = () => {
                       <div className='bg-[#2c2c6c] cursor-default py-5 px-4 rounded-md text-center'>
                           <FaAward className='text-[#47b5ff] text-center mx-auto '  size={25}/>
                           <h4 className='my-2 text-xl text-gray-100'>Projects</h4>
-                          <p className='text-sm text-gray-200'>84 + Projects</p>
+                          <p className='text-sm text-gray-200'>54 + Projects</p>
                       </div>
                     </div>
                     <p className='mt-10 text-lg text-gray-400 md:text-xl'>Hello! I am Forhad Hossen and I’m a frontend developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive Frontend web applications And React applications.I'm also completed Diploma in Power Engineering</p>

@@ -27,7 +27,7 @@ const skillsdata = [
         img:Bootstrap,
         name:'BOOTSTRAP',
         brand:'Frontend',
-        info:'Experiencee'
+        info:'Experienced'
     },
     {
         id:4,
