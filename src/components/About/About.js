@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaAward, FaLocationArrow } from 'react-icons/fa'
-import Resume from '../../assets/resume .pdf'
+import Resume from '../../assets/resume.pdf'
 import Border from '../Border/Border'
 const About = () => {
   return (
