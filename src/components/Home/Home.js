@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import Me from '../../assets/Forhad.png';
-import Resume from '../../assets/resume .pdf';
+import Resume from '../../assets/resume.pdf';
 const Home = () => {
   return (
     <section id='home'  name='home' className='bg-[#0A192F] w-full '>
